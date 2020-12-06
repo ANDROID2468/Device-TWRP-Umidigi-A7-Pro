@@ -165,7 +165,7 @@ TW_DEFAULT_LANGUAGE := en
 
 # NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
 # Path of your SHRP Tree
-SHRP_PATH := device/umidigi/A7_pro
+# SHRP_PATH := device/umidigi/A7_pro
 # Maintainer name *
 SHRP_MAINTAINER := ANDROID2468
 # Device codename *
