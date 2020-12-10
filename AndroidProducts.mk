@@ -17,5 +17,3 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_A7_pro.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_A7_pro-eng

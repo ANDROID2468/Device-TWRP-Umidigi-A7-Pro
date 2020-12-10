@@ -60,6 +60,8 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 TARGET_KERNEL_SOURCE := kernel/blu/G90
 TARGET_KERNEL_CONFIG := G90_defconfig
 
+#system size (with los gsi and with deleted product partition)
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1072619520
 # Avb
 BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
@@ -80,7 +82,7 @@ BOARD_DYNAMIC_PARTITIONS_PARTITION_LIST := product vendor system
 BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
 
 # system.prop
-TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+TARGET_SYSTEM_PROP := device/umidigi/A7_pro/system.prop
 
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
